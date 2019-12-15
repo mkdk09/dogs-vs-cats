@@ -1,3 +1,5 @@
 .DS_Store
 /cats_and_dogs_small/
 /.vscode/
+/tfjs/
+model.h5
