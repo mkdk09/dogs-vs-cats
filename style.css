@@ -1,0 +1,69 @@
+/** 
+#canvas {
+    border: solid black 1px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+p {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#file {
+    position: absolute;
+    top: 62%;
+    left: 55%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#output {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#bg {
+    background: linear-gradient(lightgreen, skyblue);
+    height: 100%;
+}
+*/
+#canvas {
+    border: solid black 1px;
+    display: block;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0px;
+}
+.bg {
+    background: radial-gradient(lightgreen, skyblue);
+    height: 100%;
+}
+
+
+

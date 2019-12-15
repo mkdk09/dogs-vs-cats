@@ -4,6 +4,7 @@ from keras import models
 from keras import layers
 from keras.preprocessing.image import ImageDataGenerator
 from keras import optimizers
+import matplotlib.pyplot as plt
 
 conv_base = VGG16(weights='imagenet', 
                     include_top=False, 
@@ -59,11 +60,13 @@ model.compile(
 history = model.fit_generator(
     train_generator,
     steps_per_epoch=100,
-    epochs=30,
+    epochs=5,
     validation_data=validation_generator,
     validation_steps=50,
     verbose=1
 )
+
+model.save('model.h5')
 
 acc = history.history['acc']
 val_acc = history.history['val_acc']
