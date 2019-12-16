@@ -8,7 +8,7 @@ function loadImage(url) {
 
 const modelPromise = tf.loadModel('./tfjs/model.json')
 
-document.addEventListener('DOMContentLoaded', async() => {
+document.addEventListener('DOMContentLoaded', async () => {
     const canvas = document.getElementById('canvas')
     const ctx = canvas.getContext('2d')
     const file = document.getElementById('file')
