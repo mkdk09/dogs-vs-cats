@@ -65,5 +65,9 @@ body {
     height: 100%;
 }
 
+canvas {
+    margin: 4px;
+}
+
 
 
