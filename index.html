@@ -8,11 +8,11 @@
         <script src="main.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body>
+    <body style="background-color: #42afe3">
         <div class="bg"></div>
         <div class="main">
-            <h1>Dogs VS Cats</h1>
-            <p>犬か猫の画像を選択してください。</p>
+            <h1 class="has-text-white title">Dogs VS Cats</h1>
+            <p class="has-text-white subtitle is-5">犬か猫の画像を選択してください。</p>
             <canvas id="canvas" width="150" height="150"></canvas>
             <!-- <input type="file" id="file"> -->
             <div class="field">
@@ -20,9 +20,6 @@
                   <label class="file-label">
                     <input class="file-input" type="file" name="resume" id="file">
                     <span class="file-cta">
-                      <!-- <span class="file-icon">
-                        <i class="fas fa-upload"></i>
-                      </span> -->
                       <span class="file-label">
                         ファイルを選択
                       </span>
@@ -30,7 +27,7 @@
                   </label>
                 </div>
               </div>
-            <div id="output"></div>
+            <div class="has-text-white" id="output"></div>
         </div>
     </body>
 </html>
